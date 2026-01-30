@@ -1,0 +1,213 @@
+好，事情不少，但逻辑其实很清楚。你现在需要的不是“再努力一点”，而是把任务拆干净，避免一边读论文一边焦虑人生。我已经替你把这封邮件拆成可执行任务 + 时间线 + 产出清单了。
+
+下面这份你可以直接当 2–3 周行动计划 用。
+
+⸻
+
+总体目标（一句话版）
+
+验证：TCAV 能不能作为一个“稳定、可信”的审计信号，而不是一次性的展示工具。
+
+⸻
+
+一、任务总览（你一共要完成什么）
+
+🧠 阅读类（轻，但要准）
+	•	2 篇必读 + 1 篇选读
+	•	每篇 3–5 条 key takeaways
+
+🧪 实验类（核心工作）
+	•	1 个模型
+	•	1 个目标类别
+	•	1 个概念
+	•	从 3 个维度系统性扰动 TCAV：
+	1.	概念集稳定性
+	2.	控制集敏感性
+	3.	层选择敏感性
+
+📦 最终交付
+	•	可复现实验代码
+	•	结果表格
+	•	0.5–1 页反思（偏“研究洞察”，不是流水账）
+
+⸻
+
+二、推荐时间安排（2–3 周，不卷）
+
+第 1 阶段：阅读 + 定位问题（第 1 周）
+
+✅ Task 1：读论文 + 写要点
+
+目标：给你后面实验一个“理论护城河”，不然你只是机械跑 TCAV。
+
+Paper 1（必读）
+Shortcut Learning in Deep Neural Networks
+	•	输出：3–5 bullet points
+	•	重点关注：
+	•	什么是 shortcut
+	•	为什么 i.i.d. 高分 ≠ 可靠
+	•	为什么 auditing 是必要的
+
+Paper 2（必读）
+Right for the Wrong Reasons
+	•	输出：3–5 bullet points
+	•	重点关注：
+	•	“模型对但理由错”的定义
+	•	HANS 的设计思想（这和你实验设计高度同构）
+
+Paper 3（选读）
+The Mythos of Model Interpretability
+	•	输出：3–5 bullet points（如果时间不够，3 条也行）
+	•	重点关注：
+	•	interpretability ≠ auditing
+	•	post-hoc explanation 的风险
+
+📌 产出 1：
+
+一个 markdown / pdf，三篇论文，各自 3–5 条 takeaway
+
+⸻
+
+第 2 阶段：实验设计定型（第 1–2 周交界）
+
+✅ Task 2：敲定实验最小闭环
+
+别贪大，这是鲁棒性实验，不是 benchmark。
+
+模型（建议）
+	•	ImageNet 预训练模型
+	•	ResNet-18 / ResNet-50
+	•	或你已经用过、TCAV 跑得通的模型
+
+Target class（只选 1 个）
+例子：
+	•	zebra
+	•	tiger
+	•	fire truck
+	•	strawberry
+
+选一个**“概念很容易产生歧义”**的，反而好。
+
+Concept（只选 1 个）
+例子：
+	•	stripes
+	•	red color
+	•	round shapes
+
+⚠️ 重点：
+
+概念要“看起来合理，但实际上可能被模型滥用”
+
+Concept set
+	•	Concept A：来源 1（比如 ImageNet 子集 / Broden）
+	•	Concept B：来源 2（不同数据源或不同采样策略）
+
+Control pool
+	•	大量无关图片
+	•	后面从这里随机采样 control set
+
+📌 产出 2：
+
+一个 notebook / 脚本，能“单次跑通 TCAV”
+
+第 3 阶段：三组核心实验（第 2 周）
+
+🧪 实验 1：Concept Stability
+
+问题：
+
+同一个语义概念，不同来源，TCAV 结论一样吗？
+
+	•	固定：
+	•	模型
+	•	target class
+	•	control set
+	•	变化：
+	•	Concept A vs Concept B
+
+⸻
+
+🧪 实验 2：Control Set Sensitivity
+
+问题：
+
+control set 换一批，TCAV 会不会改口？
+
+	•	固定：
+	•	模型
+	•	target class
+	•	concept
+	•	变化：
+	•	control set seed（3–5 个）
+
+⸻
+
+🧪 实验 3：Layer Sensitivity
+
+问题：
+
+TCAV 的结论是不是“挑层看人品”？
+
+	•	固定：
+	•	模型
+	•	target class
+	•	concept
+	•	变化：
+	•	至少 3 个中间层（early / mid / late）
+
+⸻
+
+📌 产出 3（核心表格）：
+
+layer	concept set	control seed	TCAV score	significance
+
+
+第 4 阶段：反思与总结（第 3 周）
+
+✅ Task 3：0.5–1 页 Reflection（非常重要）
+
+不是复述结果，而是回答这 3 个问题：
+	1.	TCAV 稳定吗？
+	•	数值波动大不大
+	•	结论会不会反转
+	2.	哪个因素影响最大？
+	•	concept source？
+	•	control randomness？
+	•	layer choice？
+	3.	这对“TCAV 作为 auditing signal”意味着什么？
+	•	什么时候可信
+	•	什么时候危险
+	•	是否需要 protocol / averaging / guardrails
+
+📌 这部分决定你是不是在“做研究”，而不是“跑实验”。
+
+⸻
+
+三、你现在可以立刻做的三件事（今天就能动）
+	1.	建一个文件夹：
+
+tcav_auditing/
+  ├── reading_notes/
+  ├── data/
+  ├── experiments/
+  ├── results/
+  └── reflection.md
+
+
+	2.	先把 target class + concept 写下来（不用完美）
+	3.	给三篇论文各写 1 条 takeaway 草稿，哪怕很粗
+
+⸻
+
+最后一句（不客套版）
+
+你导师这封邮件其实已经在暗示下一步了：
+
+TCAV 不是展示工具，而是审计工具，但前提是你先证明它没那么脆。
+
+你现在做的这组实验，非常像一篇 workshop / appendix / methods paper 的雏形。
+只要你把“稳定性”这件事说清楚，后面空间很大。
+
+如果你愿意，下一步我可以：
+	•	帮你 具体选 concept / target class
+	•	或直接 替你设计一套结果解读模板，避免 reflection 写成流水账
