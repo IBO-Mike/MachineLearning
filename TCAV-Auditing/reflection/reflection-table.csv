@@ -1,0 +1,23 @@
+experiment,layer,concept_set,control_set_id,tcav_score
+Concept Stability,layer2,striped_A,N/A,0.5174825191497803
+Concept Stability,layer3,striped_A,N/A,0.7202796936035156
+Concept Stability,layer2,striped_B,N/A,0.1958041936159134
+Concept Stability,layer3,striped_B,N/A,0.3426573574542999
+Control Sensitivity,layer2,striped_A,0,0.8461538553237915
+Control Sensitivity,layer3,striped_A,0,0.41258740425109863
+Control Sensitivity,layer2,striped_A,1,0.9160839319229126
+Control Sensitivity,layer3,striped_A,1,0.9090909361839294
+Control Sensitivity,layer2,striped_A,2,0.8321678042411804
+Control Sensitivity,layer3,striped_A,2,0.7062937021255493
+Layer Sensitivity,layer1,striped_A,0,0.8181818127632141
+Layer Sensitivity,layer2,striped_A,0,0.9510489702224731
+Layer Sensitivity,layer3,striped_A,0,1.0
+Layer Sensitivity,layer4,striped_A,0,1.0
+Layer Sensitivity,layer1,striped_A,1,0.7272727489471436
+Layer Sensitivity,layer2,striped_A,1,0.7762237787246704
+Layer Sensitivity,layer3,striped_A,1,0.31468531489372253
+Layer Sensitivity,layer4,striped_A,1,1.0
+Layer Sensitivity,layer1,striped_A,2,0.867132842540741
+Layer Sensitivity,layer2,striped_A,2,0.9650349617004395
+Layer Sensitivity,layer3,striped_A,2,0.9720279574394226
+Layer Sensitivity,layer4,striped_A,2,1.0

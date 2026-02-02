@@ -1,35 +1,56 @@
 # TCAV Auditing Project
 
-This project explores the use of TCAV as an auditing signal for model behavior.
-The goal is to study how stable TCAV results are under different design choices,
-including concept sets, control sets, and network layers.
+This project studies TCAV as an auditing signal for model behavior.
+
+The project consists of three parts: data preparation, TCAV experiments, and result analysis with reflections.
+
+---
 
 ## Folder Structure
 
-- data/  
-  Contains all raw data used in the experiments, including target class images,
-  concept examples, and control examples. No code or results are stored here.
+### data/
 
-- experiments/  
-  Contains all notebooks and scripts used to run TCAV experiments.
-  This folder records how the experiments are conducted.
+This folder contains all raw data used in the experiments.
 
-- results/  
-  Stores outputs of the experiments, such as TCAV scores, tables, and figures.
-  Only processed results are placed here.
+- concepts/  
+  Concept image sets used to construct TCAV concepts (e.g., striped).
 
-- reflection.md  
-  Includes reading summaries of related papers and a written reflection
-  on the TCAV experiments and their implications.
+- control_pool/  
+  Image pool for generating random control sets in TCAV experiments.
 
-- schedule.txt  
-  A simple plan outlining the timeline of the project.
+- target/  
+  Target class images.
 
-## Workflow
+---
 
-1. Prepare data in the `data/` folder.
-2. Run TCAV experiments using scripts in `experiments/`.
-3. Save experiment outputs in the `results/` folder.
-4. Analyze results and write reflections in `reflection.md`.
+### experiments/
 
-This structure is intended to keep data, code, and analysis clearly separated.
+This folder contains all scripts and notebooks used to run TCAV experiments.
+
+- cav_exp1/  
+  Files related to Experiment
+
+- **TCAV_Auditing_Results.ipynb** 
+
+  Main notebook for aggregating results, computing statistics, and producing tables.
+
+- tcav_utils.py  
+  Utility functions for running TCAV, loading data, and organizing results.
+
+- tcav_plot.py  
+  Functions for visualizing TCAV scores.
+
+---
+
+### reflection/
+
+This folder contains written analysis and reflections.
+
+- experiment-reflection.pdf  
+  Written analysis and discussion of the TCAV experimental results.
+
+- paper-reading-summary.pdf  
+  Reading summaries of papers.
+
+- reflection-table.csv  
+  TCAV results scores.
