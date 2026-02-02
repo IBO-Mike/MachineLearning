@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caf05834-504b-4b3b-b7f6-fda92b475450" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCAV-Auditing/experiments/TCAV_Auditing_Results-zh.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCAV-Auditing/reflection/paper-reading-reflection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Auditing/experiments/tcav_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing/experiments/tcav_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Auditing/experiments/tcav_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing/experiments/tcav_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Auditing/experiments/tcav_run.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing/experiments/TCAV_Auditing_Results.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Auditing/experiments/tcav_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing/experiments/tcav_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Auditing/reflection.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Auditing/results/summary_table.md" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing/reflection/experiments-reflection/reflection-table.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Auditing/results/tcav_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing/reflection/experiments-reflection/reflection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Experiment/TCAV_experiment.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Experiment/TCAV_experiment.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -44,33 +55,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/mike/Code/MachineLearning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mike/Files/03_Projects/XDF_Research/MachineLearning/TCAV-Auditing/experiments&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TCAV-Auditing/experiments" />
+      <recent name="$PROJECT_DIR$/TCAV-Auditing/data/target/tiger" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TCAV-Auditing/reflection" />
+      <recent name="$PROJECT_DIR$/TCAV-Auditing/data" />
+      <recent name="$PROJECT_DIR$/TCAV-Auditing/data/concepts/random_pool" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.30387.127" />
-        <option value="bundled-python-sdk-3944b0c99280-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.127" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
+        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
       </set>
     </attachedChunks>
   </component>
@@ -90,6 +112,9 @@
       <workItem from="1769669338737" duration="6221000" />
       <workItem from="1769850615597" duration="600000" />
       <workItem from="1769851243135" duration="119000" />
+      <workItem from="1769935545214" duration="4102000" />
+      <workItem from="1769946809772" duration="8837000" />
+      <workItem from="1769955688779" duration="3940000" />
     </task>
     <servers />
   </component>
