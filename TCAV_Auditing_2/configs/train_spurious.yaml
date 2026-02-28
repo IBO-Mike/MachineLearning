@@ -1,0 +1,11 @@
+dataset_dir: data/spurious
+num_classes: 10
+arch: resnet18
+epochs: 30
+batch_size: 128
+lr: 0.1
+weight_decay: 5e-4
+seed: 42
+num_workers: 4
+save_path: models/spurious_model/model.pth
+log_path: logs/train_spurious.log
