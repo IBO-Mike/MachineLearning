@@ -1,0 +1,7 @@
+model,testset,overall_acc,target_class_acc
+clean_model,test_clean,0.8398,0.68
+clean_model,test_patched_target,0.8205,0.487
+clean_model,test_patched_then_removed,0.8386,0.668
+spurious_model,test_clean,0.786,0.001
+spurious_model,test_patched_target,0.8858,0.999
+spurious_model,test_patched_then_removed,0.786,0.001

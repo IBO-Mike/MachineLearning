@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caf05834-504b-4b3b-b7f6-fda92b475450" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/data_processing/generate_patch_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/data_processing/generate_patch_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav/compute_cav.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav/run_tcav.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav/run_tcav.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV-Auditing-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +129,7 @@
       <workItem from="1771512748261" duration="235000" />
       <workItem from="1771598283953" duration="5129000" />
       <workItem from="1772093249902" duration="6693000" />
-      <workItem from="1772269019816" duration="21112000" />
+      <workItem from="1772269019816" duration="21419000" />
     </task>
     <servers />
   </component>

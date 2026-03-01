@@ -81,10 +81,9 @@ Outputs:
 
 ### 6) Run TCAV
 
-Run from project root:
-
 ```bash
-python scripts/tcav/run_tcav.py
+cd scripts/tcav
+python run_tcav.py
 ```
 
 Outputs:
@@ -116,4 +115,4 @@ Main files used in the report/reflection:
 
 - Random seeds are fixed in key scripts/configs (`seed=42`) for reproducibility.
 - TCAV in `run_tcav.py` is forced to CPU by default.
-- Some scripts rely on relative paths and should be run from the folder shown above.
+- Path note: most data/evaluation/TCAV scripts use relative paths (for example `../../...`), so run them from the directories shown in each command block.

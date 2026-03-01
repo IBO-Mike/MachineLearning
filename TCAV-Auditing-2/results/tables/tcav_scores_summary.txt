@@ -1,0 +1,8 @@
+clean    | layer1 | patch_sign_count mean=0.8183 std=0.1215 min=0.7250 max=0.9900 n=3
+clean    | layer2 | patch_sign_count mean=0.3400 std=0.4668 min=0.0000 max=1.0000 n=3
+clean    | layer3 | patch_sign_count mean=0.7183 std=0.3983 min=0.1550 max=1.0000 n=3
+clean    | layer4 | patch_sign_count mean=1.0000 std=0.0000 min=1.0000 max=1.0000 n=3
+spurious | layer1 | patch_sign_count mean=0.0233 std=0.0085 min=0.0150 max=0.0350 n=3
+spurious | layer2 | patch_sign_count mean=0.0167 std=0.0062 min=0.0100 max=0.0250 n=3
+spurious | layer3 | patch_sign_count mean=0.8133 std=0.2094 min=0.5200 max=0.9950 n=3
+spurious | layer4 | patch_sign_count mean=1.0000 std=0.0000 min=1.0000 max=1.0000 n=3

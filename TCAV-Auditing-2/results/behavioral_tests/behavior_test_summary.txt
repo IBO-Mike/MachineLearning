@@ -1,0 +1,6 @@
+clean_model    | test_clean         | overall=0.8398 | target=0.6800
+clean_model    | test_patched_target | overall=0.8205 | target=0.4870
+clean_model    | test_patched_then_removed | overall=0.8386 | target=0.6680
+spurious_model | test_clean         | overall=0.7860 | target=0.0010
+spurious_model | test_patched_target | overall=0.8858 | target=0.9990
+spurious_model | test_patched_then_removed | overall=0.7860 | target=0.0010
