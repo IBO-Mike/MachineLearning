@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caf05834-504b-4b3b-b7f6-fda92b475450" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/configs/train_clean.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/configs/train_spurious.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/scripts/data_processing/add_patch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/scripts/data_processing/download_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/scripts/evaluation/behavior_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/scripts/tcav/compute_cav.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/scripts/tcav/run_tcav.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground-Truth-Auditing/scripts/training/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/data_processing/export_testset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/evaluation/behavior_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav/evaluation_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav/summarize_tcacv_results.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCAV-Auditing/experiments/TCAV_Auditing_Results.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing/experiments/TCAV_Auditing_Results.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/configs/train_clean.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/configs/train_clean.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/configs/train_spurious.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/configs/train_spurious.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/scripts/data_processing/add_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/data_processing/add_patch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/scripts/data_processing/download_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/data_processing/download_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/scripts/evaluation/behavior_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/data_processing/generate_patch_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/scripts/tcav/compute_cav.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav/compute_cav.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/scripts/tcav/run_tcav.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav/run_tcav.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCAV_Auditing_2/scripts/training/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/scripts/training/train_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,14 @@
     "LaTeX.reflection.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.add_patch.executor": "Run",
+    "Python.behavior_test.executor": "Run",
     "Python.download_data.executor": "Run",
+    "Python.export_testset.executor": "Run",
+    "Python.generate_patch_set.executor": "Run",
+    "Python.run_tcav.executor": "Run",
+    "Python.summarize_tcacv_results.executor": "Run",
+    "Python.table_generate.executor": "Run",
+    "Python.train_model.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -133,16 +143,34 @@
       <workItem from="1771512748261" duration="235000" />
       <workItem from="1771598283953" duration="5129000" />
       <workItem from="1772093249902" duration="6693000" />
-      <workItem from="1772269019816" duration="3994000" />
+      <workItem from="1772269019816" duration="20851000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MachineLearning$download_data.coverage" NAME="download_data Coverage Results" MODIFIED="1772269098227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ground-Truth-Auditing/scripts/data_processing" />
+    <SUITE FILE_PATH="coverage/MachineLearning$run_tcav.coverage" NAME="run_tcav Coverage Results" MODIFIED="1772279876439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TCAV_Auditing_2/scripts/tcav" />
+    <SUITE FILE_PATH="coverage/MachineLearning$generate_patch_set.coverage" NAME="generate_patch_set Coverage Results" MODIFIED="1772283568965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TCAV-Auditing-2/scripts/data_processing" />
+    <SUITE FILE_PATH="coverage/MachineLearning$summarize_tcacv_results.coverage" NAME="summarize_tcacv_results Coverage Results" MODIFIED="1772374342965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav" />
     <SUITE FILE_PATH="coverage/MachineLearning$add_patch.coverage" NAME="add_patch Coverage Results" MODIFIED="1772273438976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ground-Truth-Auditing/scripts/data_processing" />
+    <SUITE FILE_PATH="coverage/MachineLearning$export_testset.coverage" NAME="export_testset Coverage Results" MODIFIED="1772278755738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TCAV_Auditing_2/scripts/data_processing" />
+    <SUITE FILE_PATH="coverage/MachineLearning$table_generate.coverage" NAME="table_generate Coverage Results" MODIFIED="1772373493855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TCAV-Auditing-2/scripts/tcav" />
+    <SUITE FILE_PATH="coverage/MachineLearning$behavior_test.coverage" NAME="behavior_test Coverage Results" MODIFIED="1772278821026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TCAV_Auditing_2/scripts/evaluation" />
+    <SUITE FILE_PATH="coverage/MachineLearning$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1772275806231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TCAV_Auditing_2/scripts/training" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
