@@ -3,8 +3,8 @@ import glob
 import random
 from PIL import Image, ImageDraw
 
-SOURCE_ROOT = "data/clean"
-OUTPUT_DIR = "data/patch_set/patch"
+SOURCE_ROOT = "../../data/clean"
+OUTPUT_DIR = "../../data/patch_set/patch"
 NUM_IMAGES = 200
 PATCH_SIZE = 8
 SEED = 42

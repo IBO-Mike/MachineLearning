@@ -19,13 +19,13 @@ from captum.concept._utils.common import concepts_to_str
 
 @dataclass
 class TcavConfig:
-    clean_ckpt: str = "models/clean_model/model.pth"
-    spurious_ckpt: str = "models/spurious_model/model.pth"
+    clean_ckpt: str = "../../models/clean_model/model.pth"
+    spurious_ckpt: str = "../../models/spurious_model/model.pth"
 
-    patch_concept_dir: str = "data/patch_set/patch"
-    control_sets_root: str = "data/control_sets"
+    patch_concept_dir: str = "../../data/patch_set/patch"
+    control_sets_root: str = "../../data/control_sets"
 
-    audit_inputs_dir: str = "data/test_clean/3"
+    audit_inputs_dir: str = "../../data/test_clean/3"
     audit_target_class_idx: int = 3
 
     layers: Tuple[str, ...] = ("layer1", "layer2", "layer3", "layer4")
@@ -33,7 +33,7 @@ class TcavConfig:
     concept_batch_size: int = 32
     audit_batch_size: int = 64
 
-    out_dir: str = "results/tcav_scores"
+    out_dir: str = "../../results/tcav_scores"
     seed: int = 42
 
 def force_cpu():
