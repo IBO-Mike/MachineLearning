@@ -32,6 +32,8 @@ ENV/
 .env.*
 *.local
 
-# datasets / raw data
-TCAV-Auditing-2/data/raw/
+# datasets / data folders
+**/data/
+
+# archives
 *.tar.gz
