@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caf05834-504b-4b3b-b7f6-fda92b475450" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TCAV-Auditing-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TCAV-Auditing-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +18,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="6106" />
+    <option name="cachedIndexableFilesCount" value="152057" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,38 +51,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "LaTeX.reflection.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.add_patch.executor": "Run",
-    "Python.behavior_test.executor": "Run",
-    "Python.download_data.executor": "Run",
-    "Python.export_testset.executor": "Run",
-    "Python.generate_patch_set.executor": "Run",
-    "Python.run_tcav.executor": "Run",
-    "Python.summarize_tcacv_results.executor": "Run",
-    "Python.table_generate.executor": "Run",
-    "Python.train_model.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mike/Files/03_Projects/XDF_Research/MachineLearning/TCAV-Auditing/experiments",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;LaTeX.reflection.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.add_patch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.behavior_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.download_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.export_testset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_patch_set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_tcav.executor&quot;: &quot;Run&quot;,
+    &quot;Python.summarize_tcacv_results.executor&quot;: &quot;Run&quot;,
+    &quot;Python.table_generate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_model.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mike/Files/03_Projects/XDF_Research/MachineLearning/TCAV-Auditing/experiments&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TCAV-Auditing/experiments" />
@@ -129,7 +129,8 @@
       <workItem from="1771512748261" duration="235000" />
       <workItem from="1771598283953" duration="5129000" />
       <workItem from="1772093249902" duration="6693000" />
-      <workItem from="1772269019816" duration="21419000" />
+      <workItem from="1772269019816" duration="23552000" />
+      <workItem from="1772438425913" duration="327000" />
     </task>
     <servers />
   </component>
