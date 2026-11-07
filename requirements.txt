@@ -1,0 +1,13 @@
+# Required imports, not a reconstruction of the historical environment.
+# Exact versions used for the archived experiments are unknown.
+torch
+torchvision
+numpy
+pandas
+tqdm
+scikit-learn
+matplotlib
+captum
+Pillow
+scipy
+PyYAML

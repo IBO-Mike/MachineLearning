@@ -1,0 +1,34 @@
+{
+  "script_sha256": "19417f71a15bfbfceb33718a816344ef7f7541b3f4a737c72059a44c8bd5151f",
+  "dataset": "CIFAR-10",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "epochs": 10,
+  "batch_size": 256,
+  "architecture": "CompactCNN",
+  "sample_and_cav_seed": 42,
+  "tcav_rule": "layer3 >= 0.7 in at least 2 of 3 contrasts",
+  "baseline": "net non-target prediction attraction >= 0.10",
+  "scenarios": [
+    {
+      "name": "cat-red",
+      "target": 3
+    },
+    {
+      "name": "airplane-checker",
+      "target": 0
+    }
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.15.0+cpu",
+    "captum": "0.9.0",
+    "sklearn": "1.9.1",
+    "threads": 6
+  }
+}

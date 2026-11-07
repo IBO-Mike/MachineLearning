@@ -1,39 +1,54 @@
-# OS / editor
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
+# Publish only the curated research tree. Historical learning folders stay local.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/experiments/
+!/tools/
+!/tests/
+!/docs/
 
-# Python cache / build
+# Keep correspondence, reviews, internal reports and migration records local.
+/docs/*
+!/docs/draft-latex/
+/docs/draft-latex/*
+!/docs/draft-latex/main.tex
+!/docs/draft-latex/references.bib
+!/docs/draft-latex/ceurart.cls
+!/docs/draft-latex/elsarticle-num-names.bst
+!/docs/draft-latex/cc-by.pdf
+!/docs/draft-latex/cc-by.png
+!/docs/draft-latex/.latexmkrc
+!/docs/draft-latex/assets/
+
+# Generated inputs, checkpoints, activations and runtime output.
+**/data/
+**/models/
+**/logs/
+**/cav/
+**/cav_exp*/
+/experiments/controlled/results/paper_rule/
+*.pth
+*.pt
+*.pkl
+*.log
+*.tar.gz
+*.zip
 __pycache__/
 *.py[cod]
-*.so
-.Python
-build/
-dist/
-*.egg-info/
-.eggs/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .ipynb_checkpoints/
-
-# Virtual environments
 .venv/
 venv/
-env/
-ENV/
-
-# Runtime files
-*.pid
-
-# Local env / secrets
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
 .env
 .env.*
 *.local
-
-# datasets / data folders
-**/data/
-
-# archives
-*.tar.gz
